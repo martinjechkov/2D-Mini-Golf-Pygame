@@ -1,0 +1,328 @@
+{
+    "levels": [
+        {
+            "objects": [
+                {
+                    "type": "Obstacle",
+                    "position": [300, 150],
+                    "size": [50, 100],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [450, 350],
+                    "size": [100, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [550, 200],
+                    "size": [50, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [600, 400],
+                    "size": [50, 20],
+                    "shape": "rectangle",
+                    "destination": [350, 100],
+                    "color": [0, 0, 127, 127]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [100, 100],
+                    "color": [255, 0, 0, 127]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [799, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [100, 100],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [100, 100],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 599],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [100, 100],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "Hole",
+                    "position": [700, 300],
+                    "size": 20,
+                    "shape": "circle",
+                    "color": [0, 255, 0, 255]
+                }
+            ],
+            "ball": {
+                "type": "Ball",
+                "position": [100, 100],
+                "radius": 10,
+                "color": [255, 255, 255]
+            },
+            "background": {
+                "path_to_background": "lime.png"
+            }
+        },
+        {
+            "objects": [
+                {
+                    "type": "Obstacle",
+                    "position": [200, 200],
+                    "size": [50, 100],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [400, 300],
+                    "size": [100, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [600, 200],
+                    "size": [50, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [500, 400],
+                    "size": [50, 20],
+                    "shape": "rectangle",
+                    "destination": [300, 100],
+                    "color": [0, 0, 255, 127]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [799, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 599],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "Hole",
+                    "position": [700, 350],
+                    "size": 20,
+                    "shape": "circle",
+                    "color": [0, 255, 0, 255]
+                }
+            ],
+            "ball": {
+                "type": "Ball",
+                "position": [150, 150],
+                "radius": 10,
+                "color": [255, 255, 255]
+            },
+            "background": {
+                "path_to_background": "lime.png"
+            }
+        },
+        {
+            "objects": [
+                {
+                    "type": "Obstacle",
+                    "position": [250, 150],
+                    "size": [50, 100],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [450, 250],
+                    "size": [100, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [550, 150],
+                    "size": [50, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [600, 350],
+                    "size": [50, 20],
+                    "shape": "rectangle",
+                    "destination": [300, 150],
+                    "color": [0, 0, 255, 127]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [100, 200],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [799, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [100, 200],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [100, 200],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 599],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [100, 200],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "Hole",
+                    "position": [700, 250],
+                    "size": 20,
+                    "shape": "circle",
+                    "color": [0, 255, 0, 255]
+                }
+            ],
+            "ball": {
+                "type": "Ball",
+                "position": [100, 200],
+                "radius": 10,
+                "color": [255, 255, 255]
+            },
+            "background": {
+                "path_to_background": "lime.png"
+            }
+        },
+        {
+            "objects": [
+                {
+                    "type": "Obstacle",
+                    "position": [300, 250],
+                    "size": [50, 100],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [500, 150],
+                    "size": [100, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "Obstacle",
+                    "position": [600, 350],
+                    "size": [50, 50],
+                    "shape": "rectangle",
+                    "color": [0, 0, 0, 255]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [550, 450],
+                    "size": [50, 20],
+                    "shape": "rectangle",
+                    "destination": [400, 200],
+                    "color": [0, 0, 255, 127]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [799, 0],
+                    "size": [1, 600],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 0],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "TeleportPad",
+                    "position": [0, 599],
+                    "size": [800, 1],
+                    "shape": "rectangle",
+                    "destination": [150, 150],
+                    "color": [0, 0, 0, 0]
+                },
+                {
+                    "type": "Hole",
+                    "position": [700, 300],
+                    "size": 20,
+                    "shape": "circle",
+                    "color": [0, 255, 0, 255]
+                }
+            ],
+            "ball": {
+                "type": "Ball",
+                "position": [150, 150],
+                "radius": 10,
+                "color": [255, 255, 255]
+            },
+            "background": {
+                "path_to_background": "lime.png"
+            }
+        }
+    ]
+}
